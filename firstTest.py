@@ -13,6 +13,10 @@ driver.find_element(By.ID, "login-button").click()
 time.sleep(2)
 
 driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
+driver.find_element(By.ID, "add-to-cart-sauce-labs-bike-light").click()
+driver.find_element(By.ID, "add-to-cart-sauce-labs-bolt-t-shirt").click()
+driver.find_element(By.ID, "add-to-cart-sauce-labs-fleece-jacket").click()
+driver.find_element(By.ID, "add-to-cart-sauce-labs-onesie").click()
 driver.find_element(By.ID, "shopping_cart_container").click()
 time.sleep(2)
 
